@@ -8,6 +8,7 @@ body{
 .main{
     display: flex;
     height:100vh;
+    padding:0.5rem;
     
 }
 .sidebar{
@@ -15,10 +16,11 @@ body{
     width:340px;
     border-radius: 1rem;
     /* 16px=1rem */
+    margin-right:0.5rem;
 
 }
 .main-content{
-    background-color: grey;
+    background-color: #121212;
     flex:1;
     border-radius: 1rem;
     /* 16px */
@@ -39,7 +41,7 @@ a{
 .nav{
     height:100px;
     padding: 0.5rem 0.75rem;
-    background-color: grey;
+    background-color: #121212;
     border-radius:  1rem;
     display: flex;
     flex-direction: column;
@@ -47,7 +49,6 @@ a{
 }
 .nav-home{
     line-height: 2.5rem;
-    opacity:0.7;
     padding: 0.5rem 0.75rem;
 }
 .nav-home i{
@@ -57,6 +58,96 @@ a{
     font-size: 1rem;
     margin-left: 0.7rem;
 }
-.nav-home:hover{
+.nav-search{
+    line-height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.nav-search i{
+    font-size: 1.25rem;
+}
+.nav-search a{
+    font-size: 1rem;
+    margin-left: 0.7rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+}
+.options{
+    background-color: #121212;
+    border-radius: 1rem;
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+}
+.your-lib{
+    opacity:0.5;
+}
+.your-lib img{
+    height:1.5rem;
+    width:1.25rem;
+}
+.your-lib:hover{
     opacity:1;
+}
+.icons{
+    font-size: 1.25rem;
+    opacity:0.5;
+    margin-right: 1rem;
+    display: flex;
+}
+.icons:hover{
+    opacity:1;
+}
+.box1{
+    background-color: #232323;
+    height:8rem;
+    border-radius:0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    
+}
+.box1 .p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box1 .p2{
+    font-size:0.85rem;
+    opacity:0.9rem;
+}
+.badge1{
+      border:none;
+      background-color: #fff;
+      margin-top:0.5rem;
+      border-radius: 100px;
+      height: 1.5rem;
+      font-weight:700;
+      width:fit-content;
+}
+.box2{
+    background-color: #232323;
+    height:8.5rem;
+    border-radius:0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.7rem 1rem;
+    
+}
+.box2 .p1{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.box2 .p2{
+    font-size:0.85rem;
+    opacity:0.9rem;
+}
+.badge2{
+      border:none;
+      background-color: #fff;
+      margin-top:0.5rem;
+      border-radius: 100px;
+      height: 1.5rem;
+      font-weight:700;
+      width:fit-content;
 }
