@@ -117,14 +117,18 @@ a{
     font-size:0.85rem;
     opacity:0.9rem;
 }
-.badge1{
+.badge{
       border:none;
-      background-color: #fff;
+      background-color: pink;
       margin-top:0.5rem;
       border-radius: 100px;
       height: 1.5rem;
       font-weight:700;
       width:fit-content;
+}
+.dark-badge{
+    background-color:black;
+    color:white;
 }
 .box2{
     background-color: #232323;
@@ -142,12 +146,32 @@ a{
     font-size:0.85rem;
     opacity:0.9rem;
 }
-.badge2{
-      border:none;
-      background-color: #fff;
-      margin-top:0.5rem;
-      border-radius: 100px;
-      height: 1.5rem;
-      font-weight:700;
-      width:fit-content;
+
+.sticky-nav{
+    position: sticky;
+    top:0px;
+    background-color: #121212;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+.sticky-nav-icons{
+    margin-left:0.75rem;
+}
+.sticky-nav-options{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nav-item{
+    margin-right:1rem;
+}
+.download{
+    margin-right:5px;
+}
+@media (max-width:1000px){
+    .hide{
+        display:none;
+    }
 }
